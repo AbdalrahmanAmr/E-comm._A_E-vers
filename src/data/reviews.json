@@ -1,0 +1,46 @@
+[
+  {
+    "id": "r1",
+    "productId": "1",
+    "userName": "John Smith",
+    "rating": 5,
+    "comment": {
+      "en": "Amazing sound quality and comfortable fit. Best headphones I've ever owned!",
+      "ar": "جودة صوت مذهلة ومريحة جداً. أفضل سماعات امتلكتها على الإطلاق!"
+    },
+    "date": "2024-09-15"
+  },
+  {
+    "id": "r2",
+    "productId": "1",
+    "userName": "Sarah Johnson",
+    "rating": 4,
+    "comment": {
+      "en": "Great headphones but a bit pricey. The noise cancellation is excellent though.",
+      "ar": "سماعات رائعة لكنها مكلفة قليلاً. إلغاء الضوضاء ممتاز."
+    },
+    "date": "2024-09-10"
+  },
+  {
+    "id": "r3",
+    "productId": "2",
+    "userName": "Ahmed Ali",
+    "rating": 5,
+    "comment": {
+      "en": "Beautiful watch with excellent craftsmanship. Highly recommend!",
+      "ar": "ساعة جميلة بصناعة ممتازة. أوصي بها بشدة!"
+    },
+    "date": "2024-09-20"
+  },
+  {
+    "id": "r4",
+    "productId": "4",
+    "userName": "Emma Wilson",
+    "rating": 4,
+    "comment": {
+      "en": "Good fitness tracker with accurate heart rate monitoring. Battery life could be better.",
+      "ar": "جهاز تتبع لياقة جيد مع مراقبة دقيقة لمعدل ضربات القلب. عمر البطارية يمكن أن يكون أفضل."
+    },
+    "date": "2024-09-18"
+  }
+]

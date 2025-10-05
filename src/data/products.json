@@ -1,0 +1,271 @@
+[
+  {
+    "id": "1",
+    "name": {
+      "en": "Premium Wireless Headphones",
+      "ar": "سماعات رأس لاسلكية فاخرة"
+    },
+    "description": {
+      "en": "High-quality wireless headphones with active noise cancellation and 30-hour battery life. Perfect for music lovers and professionals.",
+      "ar": "سماعات رأس لاسلكية عالية الجودة مع إلغاء الضوضاء النشط وعمر بطارية يصل إلى 30 ساعة. مثالية لعشاق الموسيقى والمحترفين."
+    },
+    "price": 299,
+    "originalPrice": 399,
+    "image": "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg",
+      "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg",
+      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg"
+    ],
+    "category": "electronics",
+    "rating": 4.8,
+    "reviewCount": 234,
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "2",
+    "name": {
+      "en": "Minimalist Watch",
+      "ar": "ساعة يد بتصميم بسيط"
+    },
+    "description": {
+      "en": "Elegant minimalist watch with leather strap and Japanese movement. A timeless accessory for any occasion.",
+      "ar": "ساعة يد أنيقة بتصميم بسيط مع حزام جلدي وحركة يابانية. إكسسوار خالد لأي مناسبة."
+    },
+    "price": 189,
+    "originalPrice": 249,
+    "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
+      "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg",
+      "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg"
+    ],
+    "category": "accessories",
+    "rating": 4.6,
+    "reviewCount": 167,
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "3",
+    "name": {
+      "en": "Leather Backpack",
+      "ar": "حقيبة ظهر جلدية"
+    },
+    "description": {
+      "en": "Handcrafted leather backpack with multiple compartments. Durable and stylish for everyday use.",
+      "ar": "حقيبة ظهر جلدية مصنوعة يدويًا مع عدة أقسام. متينة وأنيقة للاستخدام اليومي."
+    },
+    "price": 149,
+    "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg",
+      "https://images.pexels.com/photos/2422476/pexels-photo-2422476.jpeg"
+    ],
+    "category": "bags",
+    "rating": 4.7,
+    "reviewCount": 89,
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "4",
+    "name": {
+      "en": "Smart Fitness Tracker",
+      "ar": "جهاز تتبع اللياقة الذكي"
+    },
+    "description": {
+      "en": "Advanced fitness tracker with heart rate monitoring, sleep tracking, and waterproof design. Stay healthy and connected.",
+      "ar": "جهاز تتبع لياقة متقدم مع مراقبة معدل ضربات القلب وتتبع النوم وتصميم مقاوم للماء. ابق بصحة جيدة ومتصل."
+    },
+    "price": 129,
+    "originalPrice": 179,
+    "image": "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg",
+      "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg"
+    ],
+    "category": "electronics",
+    "rating": 4.5,
+    "reviewCount": 312,
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "5",
+    "name": {
+      "en": "Classic Sunglasses",
+      "ar": "نظارات شمسية كلاسيكية"
+    },
+    "description": {
+      "en": "Timeless sunglasses with UV protection and polarized lenses. Perfect for sunny days and outdoor activities.",
+      "ar": "نظارات شمسية خالدة مع حماية من الأشعة فوق البنفسجية وعدسات مستقطبة. مثالية للأيام المشمسة والأنشطة الخارجية."
+    },
+    "price": 89,
+    "image": "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg",
+      "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg"
+    ],
+    "category": "accessories",
+    "rating": 4.4,
+    "reviewCount": 145,
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "6",
+    "name": {
+      "en": "Wireless Bluetooth Speaker",
+      "ar": "مكبر صوت بلوتوث لاسلكي"
+    },
+    "description": {
+      "en": "Portable Bluetooth speaker with 360-degree sound and 12-hour battery life. Great sound quality in a compact design.",
+      "ar": "مكبر صوت بلوتوث محمول مع صوت محيطي 360 درجة وعمر بطارية 12 ساعة. جودة صوت رائعة بتصميم مدمج."
+    },
+    "price": 79,
+    "originalPrice": 99,
+    "image": "https://images.pexels.com/photos/1279406/pexels-photo-1279406.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1279406/pexels-photo-1279406.jpeg",
+      "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg"
+    ],
+    "category": "electronics",
+    "rating": 4.6,
+    "reviewCount": 198,
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "7",
+    "name": {
+      "en": "Laptop Stand",
+      "ar": "حامل لابتوب"
+    },
+    "description": {
+      "en": "Ergonomic aluminum laptop stand with adjustable height. Improve your posture and productivity while working.",
+      "ar": "حامل لابتوب مريح من الألمنيوم بارتفاع قابل للتعديل. حسن وضعيتك وإنتاجيتك أثناء العمل."
+    },
+    "price": 45,
+    "image": "https://images.pexels.com/photos/7974/pexels-photo.jpg",
+    "images": [
+      "https://images.pexels.com/photos/7974/pexels-photo.jpg",
+      "https://images.pexels.com/photos/7376/startup-photos.jpg"
+    ],
+    "category": "accessories",
+    "rating": 4.7,
+    "reviewCount": 76,
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "8",
+    "name": {
+      "en": "Minimalist Desk Lamp",
+      "ar": "مصباح مكتب بتصميم بسيط"
+    },
+    "description": {
+      "en": "LED desk lamp with touch control and adjustable brightness. Modern design that complements any workspace.",
+      "ar": "مصباح مكتب LED مع تحكم باللمس وسطوع قابل للتعديل. تصميم عصري يكمل أي مساحة عمل."
+    },
+    "price": 59,
+    "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg",
+      "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg"
+    ],
+    "category": "home",
+    "rating": 4.5,
+    "reviewCount": 92,
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "9",
+    "name": {
+      "en": "Travel Mug",
+      "ar": "كوب سفر"
+    },
+    "description": {
+      "en": "Insulated stainless steel travel mug that keeps drinks hot for 6 hours or cold for 12 hours. Leak-proof and eco-friendly.",
+      "ar": "كوب سفر من الفولاذ المقاوم للصدأ معزول يحافظ على المشروبات ساخنة لمدة 6 ساعات أو باردة لمدة 12 ساعة. مقاوم للتسرب وصديق للبيئة."
+    },
+    "price": 29,
+    "image": "https://images.pexels.com/photos/414630/pexels-photo-414630.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/414630/pexels-photo-414630.jpeg",
+      "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
+    ],
+    "category": "home",
+    "rating": 4.8,
+    "reviewCount": 203,
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "10",
+    "name": {
+      "en": "Yoga Mat",
+      "ar": "سجادة يوغا"
+    },
+    "description": {
+      "en": "Premium non-slip yoga mat with extra cushioning. Perfect for yoga, pilates, and fitness exercises.",
+      "ar": "سجادة يوغا فاخرة غير قابلة للانزلاق مع بطانة إضافية. مثالية لليوجا والبيلاتس وتمارين اللياقة."
+    },
+    "price": 39,
+    "image": "https://images.pexels.com/photos/3822668/pexels-photo-3822668.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/3822668/pexels-photo-3822668.jpeg",
+      "https://images.pexels.com/photos/4056535/pexels-photo-4056535.jpeg"
+    ],
+    "category": "fitness",
+    "rating": 4.6,
+    "reviewCount": 128,
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "11",
+    "name": {
+      "en": "Canvas Tote Bag",
+      "ar": "حقيبة قماش"
+    },
+    "description": {
+      "en": "Durable canvas tote bag with reinforced handles. Eco-friendly and perfect for shopping or daily errands.",
+      "ar": "حقيبة قماش متينة مع مقابض معززة. صديقة للبيئة ومثالية للتسوق أو المهام اليومية."
+    },
+    "price": 19,
+    "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg"
+    ],
+    "category": "bags",
+    "rating": 4.3,
+    "reviewCount": 54,
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "12",
+    "name": {
+      "en": "Wireless Mouse",
+      "ar": "ماوس لاسلكي"
+    },
+    "description": {
+      "en": "Ergonomic wireless mouse with precision tracking and long battery life. Comfortable for extended use.",
+      "ar": "ماوس لاسلكي مريح مع تتبع دقيق وعمر بطارية طويل. مريح للاستخدام المطول."
+    },
+    "price": 35,
+    "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg",
+    "images": [
+      "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg",
+      "https://images.pexels.com/photos/7972/pexels-photo.jpg"
+    ],
+    "category": "electronics",
+    "rating": 4.4,
+    "reviewCount": 112,
+    "inStock": true,
+    "featured": false
+  }
+]

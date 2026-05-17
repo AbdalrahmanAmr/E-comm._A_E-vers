@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Star, ShoppingCart } from 'lucide-react';
 import { Product } from '../types';
 import { useApp } from '../context/AppContext';
+import { translations } from '../utils/translations';
 
 interface ProductCardProps {
   product: Product;
@@ -11,6 +12,7 @@ interface ProductCardProps {
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid' }) => {
   const { language, addToCart } = useApp();
+  const t = translations[language];
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -66,6 +68,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid'
               className="flex items-center space-x-2 rtl:space-x-reverse px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
             >
               <ShoppingCart className="w-4 h-4" />
+              <span>{t.product.addToCart}</span>
             </button>
           </div>
         </div>
@@ -122,6 +125,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid'
           <button
             onClick={handleAddToCart}
             className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+            aria-label={t.product.addToCart}
+            title={t.product.addToCart}
           >
             <ShoppingCart className="w-4 h-4" />
           </button>

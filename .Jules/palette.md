@@ -1,0 +1,3 @@
+## 2026-05-18 - Interactive elements nested in Links
+**Learning:** The application nests interactive `<button>` elements (the 'Add to Cart' buttons) inside `<Link>` tags within the `ProductCard` component. This is invalid HTML and creates a confusing experience for screen reader users, as the entire card is announced as a link but contains nested interactive elements.
+**Action:** While I added an `aria-label` to the button to improve immediate context, the long-term fix should be architectural: change the card container to a `<div>` and ensure only the product title/image are clickable links to avoid nesting interactive elements.

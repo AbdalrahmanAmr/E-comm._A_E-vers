@@ -1,0 +1,3 @@
+## 2024-05-17 - Add to Cart Accessibility & Feedback
+**Learning:** Icon-only primary actions (like "Add to Cart") in the product cards were lacking `aria-label` and `title` attributes, severely hindering screen reader accessibility. Furthermore, the lack of immediate visual feedback upon clicking (especially for a conversion action) creates a poor UX as users are left wondering if their action registered.
+**Action:** Always ensure icon-only buttons have semantic labels (`aria-label`) and tooltips (`title`). For state-changing actions, always implement a temporary visual success state (e.g., swapping the icon to a checkmark, changing background color) to provide instant feedback before the user checks their cart.

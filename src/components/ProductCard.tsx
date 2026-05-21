@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Star, ShoppingCart } from 'lucide-react';
+import { Star, ShoppingCart, Check } from 'lucide-react';
 import { Product } from '../types';
 import { useApp } from '../context/AppContext';
+import { translations } from '../utils/translations';
 
 interface ProductCardProps {
   product: Product;
@@ -11,10 +12,23 @@ interface ProductCardProps {
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid' }) => {
   const { language, addToCart } = useApp();
+  const [addedToCart, setAddedToCart] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const t = translations[language];
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
     addToCart(product);
+    setAddedToCart(true);
+
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+
+    timeoutRef.current = setTimeout(() => {
+      setAddedToCart(false);
+      timeoutRef.current = null;
+    }, 2000);
   };
 
   if (view === 'list') {
@@ -63,9 +77,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid'
             </div>
             <button
               onClick={handleAddToCart}
-              className="flex items-center space-x-2 rtl:space-x-reverse px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+              aria-label={t.product.addToCart}
+              title={t.product.addToCart}
+              className={`flex items-center space-x-2 rtl:space-x-reverse px-6 py-2 text-white rounded-lg transition-all ${
+                addedToCart ? 'bg-green-600' : 'bg-blue-600 hover:bg-blue-700'
+              }`}
             >
-              <ShoppingCart className="w-4 h-4" />
+              {addedToCart ? <Check className="w-4 h-4" /> : <ShoppingCart className="w-4 h-4" />}
             </button>
           </div>
         </div>
@@ -121,9 +139,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid'
           </div>
           <button
             onClick={handleAddToCart}
-            className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+            aria-label={t.product.addToCart}
+            title={t.product.addToCart}
+            className={`p-2 text-white rounded-lg transition-all ${
+              addedToCart ? 'bg-green-600' : 'bg-blue-600 hover:bg-blue-700'
+            }`}
           >
-            <ShoppingCart className="w-4 h-4" />
+            {addedToCart ? <Check className="w-4 h-4" /> : <ShoppingCart className="w-4 h-4" />}
           </button>
         </div>
       </div>

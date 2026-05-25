@@ -1,0 +1,3 @@
+## 2025-01-28 - Missing Accessible Names on Icon-Only Buttons
+**Learning:** Found that the primary "Add to Cart" icon buttons in product list/grid views were completely missing accessible names, making them unreadable to screen readers. In addition, their keyboard focus states lacked the required `focus-visible` outline offsets needed for high visibility against the varied background colors.
+**Action:** When implementing or modifying icon-only action buttons across the app, always provide localized `aria-label` and `title` attributes. Also ensure to add robust keyboard focus indicators using Tailwind's `focus-visible:ring-2 focus-visible:ring-offset-2` to guarantee high contrast visibility during keyboard navigation.

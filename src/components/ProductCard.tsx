@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Star, ShoppingCart } from 'lucide-react';
 import { Product } from '../types';
 import { useApp } from '../context/AppContext';
+import { translations } from '../utils/translations';
 
 interface ProductCardProps {
   product: Product;
@@ -11,6 +12,7 @@ interface ProductCardProps {
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid' }) => {
   const { language, addToCart } = useApp();
+  const t = translations[language];
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -63,7 +65,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid'
             </div>
             <button
               onClick={handleAddToCart}
-              className="flex items-center space-x-2 rtl:space-x-reverse px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+              aria-label={t.product.addToCart}
+              title={t.product.addToCart}
+              className="flex items-center space-x-2 rtl:space-x-reverse px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 focus-visible:outline-none dark:focus-visible:ring-offset-gray-800"
             >
               <ShoppingCart className="w-4 h-4" />
             </button>
@@ -121,7 +125,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, view = 'grid'
           </div>
           <button
             onClick={handleAddToCart}
-            className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+            aria-label={t.product.addToCart}
+            title={t.product.addToCart}
+            className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 focus-visible:outline-none dark:focus-visible:ring-offset-gray-800"
           >
             <ShoppingCart className="w-4 h-4" />
           </button>
